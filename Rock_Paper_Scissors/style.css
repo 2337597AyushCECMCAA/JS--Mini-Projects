@@ -1,0 +1,46 @@
+.choice img {
+  width: 100%;
+  height: auto;
+}
+h1 {
+  margin: 40px 0;
+}
+.choice img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid black;
+  object-fit: cover;
+}
+.choice:hover{
+  /* height:200px;
+  width: 200px; */
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  background-color: #081b31;
+}
+.choice {
+  margin: 20px;
+  /* padding: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+}
+.scores {
+  margin: 30px;
+  padding: 30px;
+}
+.scores p {
+  font-size: 30px;
+}
+button#msg {
+  background: red;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-color: transparent;
+}
